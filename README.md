@@ -18,7 +18,7 @@ Once you have access, you can log on with the command below if you are on-site o
 ssh userid@login.broadinstitute.org
 ```
 
-## Step 2: Set up key pair
+## Step 2: Set up authentication key pair
 
 This will let you login to the cluster from your laptop without using a password.
 
