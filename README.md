@@ -102,5 +102,17 @@ df -h /medpop/afib
 du -sh /medpop/afib/userid
 ```
 
+## Recovering deleted data
+
+The on-prem cluster keeps backups of data for the last 15 days. BITS has an article on recovering data [here](https://intranet.broadinstitute.org/bits/service-catalog/compute-resources/restoring-data-snapshots), but basically you just need to go to the directory where the data was, enter
+
+```
+cd .snapshot
+```
+
+Then, cd into the daily snapshot you want to recover data from and copy the data to an appropriate destination as you would copy any other files on-prem.
+
+
+
 
 
