@@ -108,11 +108,14 @@ The on-prem cluster keeps backups of data for the last 15 days. BITS has an arti
 
 ```
 cd .snapshot
+
 ```
 
 Then, cd into the daily snapshot you want to recover data from and copy the data to an appropriate destination as you would copy any other files on-prem.
 
+## Working with large intermediate files
 
+If you're doing an analysis that uses large intermediate files, you can set up a temporary directory (for up to 3T) under `/broad/hptmp`
 
 
 
